@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "mobile-metronome-expo",
+    "slug": "mobile-metronome-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.mobilemetronomeexpo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.mobilemetronomeexpo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@config-plugins/detox"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e5d55223-8700-420a-b067-1bd13e20f0d5"
+      }
+    }
+  }
+}
